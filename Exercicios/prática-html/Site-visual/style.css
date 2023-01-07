@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-image: linear-gradient(to left, #8C1F28,#591C21);
+    
+    
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px grey;
+   
+   width: 350px;
+}
+
+h2{
+    text-align: left;
+    color:#044040;
+
+}
+main{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(134, 0, 0, 0.791);
+    padding: 15px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+   
+}
+.samurai{
+    text-align: center;
+    font-size: arial;
+    color: black;
+}
+.paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fugi{
+    border-color: #8C1F28;
+    border-style: double;
+    border-width:10px;
+    border-radius:15px ;
+    border-image-width:100px ;
+}
+.topicos{
+    text-align: justify;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.shibuya{
+    border-color: #591C21;
+    border-style: double;
+    border-radius: 15px;
+    border-image:auto ;
+    border-width: 10px;
+}
+.castelo{
+    border-color: #591C21;
+    border-style: double;
+    border-radius: 15px;
+    border-image:auto ;
+    border-width: 10px;
+}

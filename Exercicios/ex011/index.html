@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em Html5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em outros dipositivos os simplismente aumente seu navegador ou diminua
+
+    </p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+       <source media="(max-width:1050px)" srcset=" imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reprozuzindo Audio</h1>
+    <p>vamos aprender a reproduzir audio em html</p>
+    <audio src="midia/Changes-fiftysounds.mp3" controls ></audio>
+
+    <h2>Segunda forma de adicionar um Audio</h2>
+    <p>Agora uma segunda forma de reproduzir audios</p>
+    <audio preload="none"  controls loop>
+    <source src="midia/Changes-fiftysounds.mp3" type="audio/mpeg">
+    </audio>
+    <a href="midia/Changes-fiftysounds.mp3" download="Changes-fiftysounds.mp3" type="aplication/zip"> clique aqui</a></dowload>
+        
+
+    
+    
+    
+</body>
+</html>
